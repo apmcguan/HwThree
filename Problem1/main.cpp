@@ -33,6 +33,12 @@ int main() {
   //equation two
   A = pow (c0, (1/m));
   //equation three
+  ct = pow (((r/m)*t+A),m);
+
+  //Display reults
+  cout<< " c("<<t/7.0 <<") = " <<ct<< endl;
+  return 0;
+  
     
   
 }
